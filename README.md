@@ -33,6 +33,7 @@ cd stlink/
 ./autogen.sh
 ./configure
 make
+sudo cp st-* /usr/local/bin
 
 //-----------------st-link with GUI ------------------------
 apt install libusb-dev
