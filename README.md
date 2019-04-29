@@ -29,14 +29,15 @@ apt install libusb-1.0
 
 
 //----------------------------------------------------------
-  sudo apt install libusb
-  sudo apt install libusb-1.0
-  sudo apt install qt5-default
+apt install libusb-dev
+apt install autoconf
+apt install libusb-1.0
+apt install qt5-default
 
-  git clone https://github.com/fpoussin/QStlink2
-  git submodule update --init
-  cd QStlink2/
-  qmake QStlink2.pro 
-  make
-
+git clone https://github.com/fpoussin/QStlink2
+git submodule update --init
+cd QStlink2/
+qmake QStlink2.pro 
+make
+//----------------------------------------------------------
 ```
