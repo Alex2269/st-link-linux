@@ -28,6 +28,10 @@ apt install autoconf
 apt install libusb-1.0
 //----------------------------------------------------------
 
+git clone https://github.com/jssmile/stlink
+cd stlink/
+make
+
 //-----------------st-link with GUI ------------------------
 apt install libusb-dev
 apt install autoconf
