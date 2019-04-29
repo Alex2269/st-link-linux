@@ -43,11 +43,12 @@ apt install autoconf
 apt install libusb-1.0
 apt install qt5-default
 
-git clone https://github.com/fpoussin/QStlink2
+git clone https://github.com/fpoussin/QStlink2 qstlink2
+cd qstlink2/
 git submodule update --init
-cd QStlink2/
 qmake QStlink2.pro 
 make
+sudo cp qstlink2 /usr/local/bin
 //----------------------------------------------------------
 
 
