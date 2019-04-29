@@ -30,6 +30,8 @@ apt install libusb-1.0
 
 git clone https://github.com/jssmile/stlink
 cd stlink/
+./autogen.sh
+./configure
 make
 
 //-----------------st-link with GUI ------------------------
