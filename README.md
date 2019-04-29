@@ -1,5 +1,7 @@
 # st-link-linux-64
 
+``` cpp
+
 git clone https://github.com/texane/stlink stlink.git
 cd stlink.git
 cmake .
@@ -23,3 +25,5 @@ arm-none-eabi-objcopy -I ihex --output-target=binary code00.hex code00.bin
 apt install libusb-dev
 apt install autoconf
 apt install libusb-1.0
+
+```
