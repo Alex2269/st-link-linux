@@ -26,9 +26,9 @@ apt install cmake
 apt install libusb-dev
 apt install autoconf
 apt install libusb-1.0
-
-
 //----------------------------------------------------------
+
+//-----------------st-link with GUI ------------------------
 apt install libusb-dev
 apt install autoconf
 apt install libusb-1.0
@@ -40,4 +40,5 @@ cd QStlink2/
 qmake QStlink2.pro 
 make
 //----------------------------------------------------------
+
 ```
