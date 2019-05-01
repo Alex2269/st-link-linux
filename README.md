@@ -51,5 +51,21 @@ make
 sudo cp qstlink2 /usr/local/bin
 //----------------------------------------------------------
 
+//----------------------------------------------------------
+wget https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/7-2018q2/gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz2
+tar -xjvf gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz2 -C ./
+
+x - extract
+v - verbose output (lists all files as they are extracted)
+j - deal with bzipped file
+
+cd gcc-arm-none-eabi-7-2018-q2-update
+sudo su:
+cp --parent $(find ./)  /usr/
+//----------------------------------------------------------
+
+//----------------------------------------------------------
+export PATH="$arm_toolchain/bin:$PATH"
+//----------------------------------------------------------
 
 ```
