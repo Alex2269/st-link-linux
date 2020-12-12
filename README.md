@@ -9,12 +9,10 @@ arm-none-eabi-objcopy -I ihex --output-target=binary code00.hex code00.bin
 ./st-flash write stm-test.hex 0x8000000
 #-------------------------------------------------------------------------
 
-
 apt install cmake
 apt install libusb-dev
 apt install autoconf
 apt install libusb-1.0
-
 
 //----------------------------------------------------------
 git clone https://github.com/jssmile/stlink
@@ -29,6 +27,8 @@ sudo cp st-* /usr/local/bin
 git clone git@github.com:stlink-org/stlink.git
 cd stlink
 make
+sudo cp build/Release/bin/st-* /usr/local/bin
+sudo cp build/Release/lib/libstlink.* /usr/lib
 //----------------------------------------------------------
 
 //----------------------------------------------------------
