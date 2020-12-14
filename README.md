@@ -57,10 +57,11 @@ sudo cp qstlink2 /usr/local/bin
 //----------------------------------------------------------
 
 //----------------------------------------------------------
+see there new version:
 https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads
-
-wget https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/7-2018q2/gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz2
-tar -xjvf gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz2 -C ./
+download and extract:
+wget https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux.tar.bz2 -O gcc-arm.tar.bz2
+tar -xjvf gcc-arm.tar.bz2 -C ./
 
 x - extract
 v - verbose output (lists all files as they are extracted)
