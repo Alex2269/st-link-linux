@@ -67,7 +67,7 @@ x - extract
 v - verbose output (lists all files as they are extracted)
 j - deal with bzipped file
 
-cd gcc-arm-none-eabi-7-2018-q2-update
+cd gcc-arm-none-eabi-10-2020-q4-major
 sudo su:
 cp --parent $(find ./)  /usr/
 //----------------------------------------------------------
