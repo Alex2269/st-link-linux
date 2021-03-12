@@ -39,6 +39,7 @@ make
 #install binaries:
 sudo cp st-* /usr/local/bin
 sudo cp libstlink.* /usr/lib
+sudo chmod -R +x  /usr/local/bin/
 //----------------------------------------------------------
 
 
