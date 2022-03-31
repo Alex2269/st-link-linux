@@ -12,7 +12,7 @@ arm-none-eabi-objcopy -I ihex --output-target=binary code00.hex code00.bin
 apt install cmake
 apt install libusb-dev
 apt install autoconf
-apt install libusb-1.0
+apt install libusb-1.0-0-dev
 
 //----------------------------------------------------------
 git clone https://github.com/jssmile/stlink
