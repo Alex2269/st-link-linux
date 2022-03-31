@@ -46,7 +46,7 @@ sudo chmod -R +x  /usr/local/bin/
 //-----------------st-link with GUI ------------------------
 apt install libusb-dev
 apt install autoconf
-apt install libusb-1.0
+apt install libusb-1.0-0-dev
 apt install qt5-default
 
 git clone https://github.com/fpoussin/QStlink2 qstlink2
